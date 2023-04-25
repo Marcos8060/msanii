@@ -12,7 +12,7 @@ const Landing = () => {
         <div className="">
           <DateTimer />
         </div>
-        <p className="text-center mt-4 w-1/2 mx-auto">
+        <p className="text-center mt-4 md:w-1/2 w-10/12 mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam
           molestias voluptatum placeat eveniet sit nostrum odio vel possimus
           cumque.
