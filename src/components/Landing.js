@@ -1,8 +1,13 @@
 import React from 'react'
+import '../App.css'
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <>
+    <div className="landing__bg">
+      hellow
+    </div>
+    </>
   )
 }
 
