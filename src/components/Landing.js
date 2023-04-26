@@ -3,12 +3,17 @@ import "../App.css";
 import Navbar from "./Navbar";
 import DateTimer from "./Timer";
 import Subscribe from "./Subscribe";
+import logo from "../assets/images/msanii.png";
+import Fabs from "./Fabs";
 
 const Landing = () => {
   return (
     <>
-      <div className="landing__bg p-2">
-        <Navbar />
+      <div className="p-2">
+        <Fabs />
+        <div className="flex items-center justify-center">
+          <img className="w-72" src={logo} alt="" />
+        </div>
         <div className="">
           <DateTimer />
         </div>

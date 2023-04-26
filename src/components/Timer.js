@@ -37,28 +37,28 @@ function DateTimer() {
 
   return (
     <>
-      <div className="grid place-items-center pt-32 space-y-4">
+      <div className="grid place-items-center space-y-4">
         <h2 className="font-thin text-4xl">Coming Soon</h2>
         <div className="md:flex grid grid-cols-2 items-center justify-center gap-4">
-          <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
+          <div className="py-3 w-32 bg-gray-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
             <p className="block text-center">Days</p>
             <h2 className="font-thin text-6xl text-center">
               0{remainingTime.days}
             </h2>
           </div>
-          <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
+          <div className="py-3 w-32 bg-gray-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
             <p className="block text-center">hours</p>
             <h2 className="font-thin text-6xl text-center">
               {remainingTime.hours}
             </h2>
           </div>
-          <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
+          <div className="py-3 w-32 bg-gray-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
             <p className="block text-center">Minutes</p>
             <h2 className="font-thin text-6xl text-center">
               {remainingTime.minutes}
             </h2>
           </div>
-          <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
+          <div className="py-3 w-32 bg-gray-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
             <p className="block text-center">Seconds</p>
             <h2 className="font-thin text-6xl text-center">
               {remainingTime.seconds}

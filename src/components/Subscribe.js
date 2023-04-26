@@ -16,21 +16,12 @@ const Subscribe = () => {
     hideInput();
   }
 
-//   loading
-const loading = () => {
-    return (
-        <>
-        <p>Loading...</p>
-        </>
-    )
-}
-
 
   return (
     <div className="flex items-center justify-center my-8">
       {!show && (
         <>
-          <button onClick={showInput} className="py-3 px-8 border rounded-3xl hover:scale-105 duration-700">
+          <button onClick={showInput} className="py-3 px-8 border border-black rounded-3xl hover:scale-105 duration-700">
             Get early access
           </button>
         </>
@@ -40,7 +31,7 @@ const loading = () => {
         <>
          <div className="flex justify-end items-center relative">
          <input
-            className="py-3 px-4 w-80 outline-none bg-transparent border-gray border rounded-3xl placeholder:text-xs"
+            className="py-3 px-4 w-80 outline-none bg-transparent border-gray border border-black rounded-3xl placeholder:text-xs"
             type="text"
             placeholder="Enter your email address to request early access"
           />
