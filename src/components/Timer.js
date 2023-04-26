@@ -53,13 +53,13 @@ function DateTimer() {
             </h2>
           </div>
           <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
-            <p className="block text-center">hours</p>
+            <p className="block text-center">Minutes</p>
             <h2 className="font-thin text-6xl text-center">
               {remainingTime.minutes}
             </h2>
           </div>
           <div className="py-3 w-32 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 px-4">
-            <p className="block text-center">hours</p>
+            <p className="block text-center">Seconds</p>
             <h2 className="font-thin text-6xl text-center">
               {remainingTime.seconds}
             </h2>
